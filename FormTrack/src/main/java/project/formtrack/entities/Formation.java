@@ -8,13 +8,13 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-@Getter
-@Setter
+
+@Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Entity
-@ToString
 public class Formation implements Serializable {
      static final long serialVersionUID = 1L;
 
